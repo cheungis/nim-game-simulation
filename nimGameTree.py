@@ -95,7 +95,6 @@ class Minimax:
             
             child.print_tree(indent, last)
 def main():
-    # uses the sample output on eclass as a test case
     user = 0
     level = 'MAX'
     while user <= 2:
