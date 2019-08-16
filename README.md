@@ -17,12 +17,6 @@ to the computer player level as "Max" and the human or opponent player as "Min".
 We can mark all nodes by "Max" or "Min" depending upon the level in the tree. 
 This way we know if a leaf node is marked as "Max" the computer loses if it gets 
 to that stage. However, if a leaf node is on a "Min" level, we know the computer 
-would win arriving at that stage. There is a famous algorithm named MiniMax that 
-evaluates game states at leaf nodes and propagates the value upwards depending 
-on Min and Max levels such that it becomes trivial to chose best top-level moves 
-based on the values trickled upwards. We will not implement MiniMax for this 
-assignment. This is left as a fun exercise for those interested. However, we 
-will build the tree of states for the game of Nim with a given starting number of 
-tokens and display the tree with its Min Max levels.  
+would win arriving at that stage.
 
 Built using the Python language.
